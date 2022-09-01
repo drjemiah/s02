@@ -1,0 +1,22 @@
+[
+    {
+        "_id" : "6310885852c4d649f8f3c82a",
+        "name" : "Mathematics",
+        "description" : "Mathematics in the Modern World",
+        "price" : 700,
+        "slots" : 25,
+        "schedule" : "Monday & Wednesday",
+        "instructor" : "Vanessa Morgan",
+        "isActive" : true
+    },
+    {
+        "_id" : "6310889752c4d649f8f3c833",
+        "name" : "Computing",
+        "description" : "Introduction to Computing",
+        "price" : 2000,
+        "slots" : 18,
+        "schedule" : "Tuesday, Thursday & Saturday",
+        "instructor" : "Camilla Mendes",
+        "isActive" : true
+    }
+]   

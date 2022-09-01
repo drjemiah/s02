@@ -1,0 +1,22 @@
+[
+    {
+        "_id" : "6310874852c4d649f8f3c7ef",
+        "username" : "bearyBrand",
+        "firstName" : "Bear Fort",
+        "lastName" : "Brand",
+        "email" : "bearbrandfort@abc.com",
+        "password" : "milkdrink",
+        "mobileNumber" : 9123456789,
+        "isAdmin" : false
+    },
+    {
+        "_id" : "6310879d52c4d649f8f3c803",
+        "username" : "dinosaurHey",
+        "firstName" : "Dino",
+        "lastName" : "Divoom",
+        "email" : "iamdinosaur@abc.com",
+        "password" : "speakItLoud",
+        "mobileNumber" : 9876543210,
+        "isAdmin" : false
+    }
+]

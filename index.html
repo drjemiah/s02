@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - JSON</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        let enrollUser =
+        `[
+            {
+                "_id" : "6310874852c4d649f8f3c7ef",
+                "username" : "bearyBrand",
+                "firstName" : "Bear Fort",
+                "lastName" : "Brand",
+                "email" : "bearbrandfort@abc.com",
+                "password" : "milkdrink",
+                "mobileNumber" : 9123456789,
+                "isAdmin" : false,
+                "enrollments":
+                [
+                    {
+                        "courseId": "6310885852c4d649f8f3c82a",
+                        "courseName": "Mathematics in the Modern World",
+                        "isPaid": true,
+                        "dateEnrolled": "08-31-2022"
+                    }
+                ]
+            },
+            {
+                "_id" : "6310879d52c4d649f8f3c803",
+                "username" : "dinosaurHey",
+                "firstName" : "Dino",
+                "lastName" : "Divoom",
+                "email" : "iamdinosaur@abc.com",
+                "password" : "speakItLoud",
+                "mobileNumber" : 9876543210,
+                "isAdmin" : false,
+                "enrollments":
+                [
+                    {
+                        "courseId": "6310889752c4d649f8f3c833",
+                        "courseName": "Introduction to Computing",
+                        "isPaid": true,
+                        "dateEnrolled": "09-01-2022"
+                    }
+                ]
+            }
+        ]`
+        console.log(enrollUser);
+        console.log(JSON.parse(enrollUser));
+
+        let courseEnroll =
+        `[
+            {
+                "_id" : "6310885852c4d649f8f3c82a",
+                "name" : "Mathematics",
+                "description" : "Mathematics in the Modern World",
+                "price" : 700,
+                "slots" : 25,
+                "schedule" : "Monday & Wednesday",
+                "instructor" : "Vanessa Morgan",
+                "isActive" : true,
+                "enrollees":
+                [
+                    {
+                    "userId": "6310874852c4d649f8f3c7ef",
+                    "userName": "bearyBrand",
+                    "isPaid": true,
+                    "dateEnrolled": "08-31-2022"
+                    }
+                ]
+            },
+            {
+                "_id" : "6310889752c4d649f8f3c833",
+                "name" : "Computing",
+                "description" : "Introduction to Computing",
+                "price" : 2000,
+                "slots" : 18,
+                "schedule" : "Tuesday, Thursday & Saturday",
+                "instructor" : "Camilla Mendes",
+                "isActive" : true,
+                "enrollees":
+                [
+                    {
+                    "userId": "6310879d52c4d649f8f3c803",
+                    "userName": "dinosaurHey",
+                    "isPaid": true,
+                    "dateEnrolled": "09-01-2022"
+                    }
+                ]
+            }
+        ]`
+        console.log(courseEnroll);
+        console.log(JSON.parse(courseEnroll));
+
+    </script>
+</body>
+</html>
